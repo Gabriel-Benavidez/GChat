@@ -216,7 +216,7 @@ class GitManager:
         self._run_git_command(['git', 'fetch', 'origin'])
         self._run_git_command(['git', 'checkout', '-B', 'main', 'origin/main'])
 
-    def sync_changes_to_github(self, filepath, author="BookChat Bot"):
+    def sync_changes_to_github(self, filepath, author="NPChat Bot"):
         """Sync changes to GitHub."""
         if not self.use_github:
             logger.debug("GitHub sync disabled, skipping")
@@ -630,10 +630,10 @@ class GitManager:
             
         return filename
 
-    def add_and_commit_file(self, filepath: str, commit_msg: str, author: str = "BookChat Bot"):
+    def add_and_commit_file(self, filepath: str, commit_msg: str, author: str = "NPChat Bot"):
         """Add and commit a specific file."""
         self._run_git_command(['git', 'add', filepath])
-        self._run_git_command(['git', 'commit', '-m', commit_msg, f'--author={author} <{author}@bookchat.local>'])
+        self._run_git_command(['git', 'commit', '-m', commit_msg, f'--author={author} <{author}@npchat.local>'])
         return True
 
     def push(self):

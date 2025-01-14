@@ -1,4 +1,4 @@
-"""Git-based storage backend for BookChat."""
+"""Git-based storage backend for NPChat."""
 
 import json
 import os
@@ -179,7 +179,7 @@ class GitStorage(StorageBackend):
                     check=True,
                     capture_output=True,
                     text=True,
-                    env={**os.environ, 'GIT_AUTHOR_NAME': user, 'GIT_AUTHOR_EMAIL': f'{user}@bookchat.local'}
+                    env={**os.environ, 'GIT_AUTHOR_NAME': user, 'GIT_AUTHOR_EMAIL': f'{user}@npchat.local'}
                 )
                 logger.debug(f"Git commit output: {result.stdout}")
                 if result.stderr:

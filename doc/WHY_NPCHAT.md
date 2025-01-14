@@ -1,9 +1,9 @@
-# Why BookChat?
+# Why NPChat?
 
-Hey friends! 👋 Let me tell you why BookChat is the coolest way to stay in touch with me.
+Hey friends! 👋 Let me tell you why NPChat is the coolest way to stay in touch with me.
 
 ## 🔒 Simple & Transparent
-BookChat is built with simplicity in mind. It's a straightforward messaging system where you can send messages and see the entire conversation history. Everything is open and transparent - no mysterious algorithms or hidden features.
+NPChat is built with simplicity in mind. It's a straightforward messaging system where you can send messages and see the entire conversation history. Everything is open and transparent - no mysterious algorithms or hidden features.
 
 ## 📚 Basic Features That Just Work
 - Send and receive messages instantly
@@ -12,7 +12,7 @@ BookChat is built with simplicity in mind. It's a straightforward messaging syst
 - Simple, clean interface with no distractions
 
 ## 💻 Open Source
-BookChat is completely open source. You can see exactly how it works and even contribute improvements if you want. No black boxes, no surprises.
+NPChat is completely open source. You can see exactly how it works and even contribute improvements if you want. No black boxes, no surprises.
 
 ## 🌟 Why It's Different From...
 
@@ -47,7 +47,7 @@ BookChat is completely open source. You can see exactly how it works and even co
 - No formatting complications
 
 ## 🚀 Getting Started
-Just ask me for an invite, and I'll help you set up your BookChat account. It takes just a minute to get started - all you need is a web browser!
+Just ask me for an invite, and I'll help you set up your NPChat account. It takes just a minute to get started - all you need is a web browser!
 
 ---
 *Last updated: January 9, 2025*

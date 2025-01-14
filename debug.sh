@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Toggle debug mode
-if [ -z "$BOOKCHAT_DEBUG" ]; then
+# Toggle debug mode by setting/unsetting the debug environment variable
+if [ -z "$NPCHAT_DEBUG" ]; then
     echo "Enabling debug mode..."
-    export BOOKCHAT_DEBUG=true
+    export NPCHAT_DEBUG=true
 else
     echo "Disabling debug mode..."
-    unset BOOKCHAT_DEBUG
+    unset NPCHAT_DEBUG
 fi
 
-# Restart the server using restart_server.sh
-./restart_server.sh
+# Run the server with the current debug setting
+python server.py
 
-echo "Debug mode is now $([ ! -z "$BOOKCHAT_DEBUG" ] && echo "enabled" || echo "disabled")"
+echo "Debug mode is now $([ ! -z "$NPCHAT_DEBUG" ] && echo "enabled" || echo "disabled")"

@@ -1,4 +1,4 @@
-"""Storage module for BookChat."""
+"""Storage module for NPChat."""
 
 from abc import ABC, abstractmethod
 from typing import List, Dict, Optional, Any

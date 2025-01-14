@@ -1,6 +1,6 @@
-# BookChat Deployment Guide
+# NPChat Deployment Guide
 
-This guide covers how to deploy and configure BookChat in various environments.
+This guide covers how to deploy and configure NPChat in various environments.
 
 ## Prerequisites
 
@@ -13,8 +13,8 @@ This guide covers how to deploy and configure BookChat in various environments.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bookchat.git
-   cd bookchat
+   git clone https://github.com/yourusername/NPChat.git
+   cd NPChat
    ```
 
 2. Create and activate a virtual environment:
@@ -51,7 +51,7 @@ This guide covers how to deploy and configure BookChat in various environments.
 - `MESSAGE_VERIFICATION`: Enable message verification (true/false)
 
 ### Logging Configuration
-- `BOOKCHAT_DEBUG`: Enable debug logging (set any value to enable)
+- `NPCHAT_DEBUG`: Enable debug logging (set any value to enable)
 
 ### Archive Settings
 - `ARCHIVE_INTERVAL_SECONDS`: Interval between archive checks (default: 3600)
@@ -61,7 +61,7 @@ This guide covers how to deploy and configure BookChat in various environments.
 ## Directory Structure
 
 ```
-bookchat/
+NPChat/
 ├── keys/                 # Private keys storage
 ├── identity/
 │   └── public_keys/     # Public keys storage
@@ -87,11 +87,11 @@ bookchat/
 
 ## Logging
 
-BookChat uses a hierarchical logging system:
+NPChat uses a hierarchical logging system:
 
 1. Console Output:
    - Default: WARNING and above
-   - Debug mode: All levels when BOOKCHAT_DEBUG is set
+   - Debug mode: All levels when NPCHAT_DEBUG is set
 
 2. Log Files:
    - `debug.log`: All messages (DEBUG and above)

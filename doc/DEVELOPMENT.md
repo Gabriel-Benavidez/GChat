@@ -1,13 +1,13 @@
-# BookChat Development Guide
+# NPChat Development Guide
 
-This guide provides information for developers who want to contribute to or extend BookChat.
+This guide provides information for developers who want to contribute to or extend NPChat.
 
 ## Development Environment Setup
 
 1. Fork and clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bookchat.git
-   cd bookchat
+   git clone https://github.com/yourusername/NPChat.git
+   cd NPChat
    ```
 
 2. Set up development environment:
@@ -26,7 +26,7 @@ This guide provides information for developers who want to contribute to or exte
 ## Project Structure
 
 ```
-bookchat/
+NPChat/
 ├── server.py           # Main server implementation
 ├── git_manager.py      # Git and key management
 ├── storage/           # Storage backend implementations
@@ -129,7 +129,7 @@ class GitManager:
 
 1. Enable debug logging:
    ```bash
-   export BOOKCHAT_DEBUG=true
+   export NPCHAT_DEBUG=true
    python server.py
    ```
 

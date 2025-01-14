@@ -1,4 +1,4 @@
-// BookChat JavaScript (2025-01-08T12:20:30-05:00)
+// NPChat JavaScript (2025-01-08T12:20:30-05:00)
 
 let currentUsername = 'anonymous';
 let messageVerificationEnabled = false;

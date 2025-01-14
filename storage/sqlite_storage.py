@@ -1,4 +1,4 @@
-"""SQLite storage backend for BookChat."""
+"""SQLite storage backend for NPChat."""
 
 import sqlite3
 from datetime import datetime

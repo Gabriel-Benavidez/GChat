@@ -1,7 +1,7 @@
-# BookChat Message Signing Specification
+# NPChat Message Signing Specification
 
 ## Overview
-BookChat implements a robust public key-based message signing system to verify message authenticity. Each user's messages are signed with their private key and can be verified using their public key.
+NPChat implements a robust public key-based message signing system to verify message authenticity. Each user's messages are signed with their private key and can be verified using their public key.
 
 ## Key Management
 
@@ -131,10 +131,10 @@ def verify_signature(
 ## Security Considerations
 
 ### Current Implementation
-- ✅ Message signing with RSA keys
-- ✅ Message verification
-- ✅ Username-key binding
-- ✅ User key management
+- Message signing with RSA keys
+- Message verification
+- Username-key binding
+- User key management
 
 ### Future Improvements
 1. **Key Management Enhancements**

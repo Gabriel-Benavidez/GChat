@@ -1,4 +1,4 @@
-# BookChat - Git-Backed Messaging Application
+# NPChat - Git-Backed Messaging Application
 
 A lightweight, Git-backed web-based messaging application that allows users to communicate through a simple interface while maintaining message history in a Git repository.
 
@@ -24,7 +24,7 @@ A lightweight, Git-backed web-based messaging application that allows users to c
 ## Project Structure
 
 ```
-bookchat/
+NPChat/
 ├── README.md
 ├── .env
 ├── static/
@@ -48,8 +48,8 @@ bookchat/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bookchat.git
-   cd bookchat
+   git clone https://github.com/yourusername/NPChat.git
+   cd NPChat
    ```
 
 2. Create a virtual environment and activate it:
@@ -66,7 +66,7 @@ bookchat/
 4. Configure storage backend in `.env`:
    ```bash
    # Choose storage backend: 'git' or 'sqlite'
-   BOOKCHAT_STORAGE=git
+   NPCHAT_STORAGE=git
    
    # For Git storage
    REPO_PATH=/path/to/your/repo
@@ -82,7 +82,7 @@ bookchat/
 
 ## Deployment Options
 
-BookChat supports multiple deployment options:
+NPChat supports multiple deployment options:
 
 ### 1. GitHub Pages (Serverless)
 - Use Git storage backend
@@ -102,7 +102,7 @@ BookChat supports multiple deployment options:
 
 ## Logging and Debugging
 
-BookChat includes a comprehensive logging system with multiple debug levels:
+NPChat includes a comprehensive logging system with multiple debug levels:
 
 ### Log Files
 
@@ -117,12 +117,12 @@ By default, the console shows only WARNING and above messages to keep the output
 
 1. Set the environment variable:
    ```bash
-   export BOOKCHAT_DEBUG=true
+   export NPCHAT_DEBUG=true
    ```
 
 2. Or add to your `.env` file:
    ```bash
-   BOOKCHAT_DEBUG=true
+   NPCHAT_DEBUG=true
    ```
 
 ### Log Levels
@@ -141,7 +141,7 @@ The logging system uses standard Python logging levels (from lowest to highest p
    - For general operation info: `logs/info.log`
    - For errors and critical issues: `logs/error.log`
 
-2. Enable console debug output temporarily using the `BOOKCHAT_DEBUG` environment variable
+2. Enable console debug output temporarily using the `NPCHAT_DEBUG` environment variable
 
 3. Log files include detailed information such as:
    - Timestamp

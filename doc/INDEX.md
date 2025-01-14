@@ -1,15 +1,15 @@
-# BookChat Documentation Index
+# NPChat Documentation Index
 
-Welcome to the BookChat documentation! This index will help you navigate through the various documentation files.
+Welcome to the NPChat documentation! This index will help you navigate through the various documentation files.
 
 ## Core Documentation
 
-1. [WHY_BOOKCHAT.md](WHY_BOOKCHAT.md)
+1. [WHY_NPCHAT.md](WHY_NPCHAT.md)
    - Project overview and motivation
-   - Comparison with other chat platforms
    - Key features and benefits
+   - Comparison with alternatives
 
-2. [BOOKCHAT_SPEC.md](BOOKCHAT_SPEC.md)
+2. [NPCHAT_SPEC.md](NPCHAT_SPEC.md)
    - Complete technical specification
    - Quick start guide and minimal implementation
    - Core components and API documentation
@@ -36,14 +36,14 @@ Welcome to the BookChat documentation! This index will help you navigate through
 ## Getting Started
 
 For new users and developers:
-1. Start with [WHY_BOOKCHAT.md](WHY_BOOKCHAT.md) to understand the project's purpose
-2. Read the Quick Start section in [BOOKCHAT_SPEC.md](BOOKCHAT_SPEC.md) for implementation basics
+1. Start with [WHY_NPCHAT.md](WHY_NPCHAT.md) to understand the project's purpose
+2. Read the Quick Start section in [NPCHAT_SPEC.md](NPCHAT_SPEC.md) for implementation basics
 3. Refer to [SIGNATURE_SPEC.md](SIGNATURE_SPEC.md) for security implementation details
 
 ## Contributing
 
-The BookChat project welcomes contributions! Before contributing, please review:
-1. The technical specifications in [BOOKCHAT_SPEC.md](BOOKCHAT_SPEC.md)
+The NPChat project welcomes contributions! Before contributing, please review:
+1. The technical specifications in [NPCHAT_SPEC.md](NPCHAT_SPEC.md)
 2. Current development considerations in [TO_THINK_ABOUT.md](TO_THINK_ABOUT.md)
 
 *Last updated: 2025-01-13*

@@ -129,7 +129,7 @@ class MessageArchiver:
             try:
                 self.git_manager.sync_changes_to_github(
                     archive_path,
-                    author="BookChat Archiver",
+                    author="NPChat Archiver",
                 )
                 logger.info(f"Successfully synced archive {archive_name} to GitHub")
             except Exception as e:

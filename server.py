@@ -69,7 +69,7 @@ root.addHandler(console_handler)
 root.setLevel(logging.DEBUG)
 
 # Create a logger specific to this application
-logger = logging.getLogger('bookchat')
+logger = logging.getLogger('npchat')
 
 # Log initial debug state
 logger.info(f"Console logging level: {logging.getLevelName(console_handler.level)}")
